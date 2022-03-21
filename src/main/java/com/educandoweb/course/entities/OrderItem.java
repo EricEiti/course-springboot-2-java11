@@ -33,7 +33,7 @@ public class OrderItem implements Serializable {
 	}
 	
 	@JsonIgnore
-	public Order getORder() {
+	public Order getOrder() {
 		return id.getOrder();
 	}
 	
